@@ -1,1 +1,4 @@
-This is the new tweets page
+<%= simple_form_for @tweet do |f| %>
+  <%= f.input :content %>
+  <%= f.button :submit %>
+<% end %>
