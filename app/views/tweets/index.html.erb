@@ -1,0 +1,7 @@
+<ul class="list-group">
+	<% @tweets.all.each do |tweet| %>
+		<li class="list-group-item">
+			<%= tweet.content %>
+		</li>
+	<% end %>
+</ul>
